@@ -141,6 +141,7 @@ namespace LibreOfficeSmith.Csharp
             var libreoffice = ProgramPath;
             var src = Path.GetFullPath(source);
             var working = Path.GetFullPath(outputDirectory);
+            Directory.CreateDirectory(working);
 
             using var process = new Process();
             process.StartInfo.FileName = libreoffice;

@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
-    <Version>0.0.1</Version>
+    <Version>0.0.1.1</Version>
     <Authors>midoliy</Authors>
     <Company>tech leaves</Company>
     <Copyright>© 2021 Tatsuya Midorikawa. All rights rserved</Copyright>
@@ -16,7 +16,10 @@
     <PackageIcon>libreoffice_smith.png</PackageIcon>
     <NeutralLanguage>ja-JP</NeutralLanguage>
     <PackageReleaseNotes># ver 0.0.1
-- add LibreOffice.ConvertToPdfAsync()</PackageReleaseNotes>
+- add: LibreOffice.ConvertToPdfAsync()
+
+# ver 0.0.1.1
+- bugfix: LibreOffice.ConvertToPdfAsync()</PackageReleaseNotes>
     <Description>This library is designed to support LibreOffice operations.</Description>
   </PropertyGroup>
 
