@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreOfficeSmith.Csharp", "LibreOfficeSmith.Csharp\LibreOfficeSmith.Csharp.csproj", "{B81655CE-2CAC-4DDD-923E-C4007B641A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3D24E2A-1607-456E-9113-4CD012255CF0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81655CE-2CAC-4DDD-923E-C4007B641A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81655CE-2CAC-4DDD-923E-C4007B641A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81655CE-2CAC-4DDD-923E-C4007B641A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81655CE-2CAC-4DDD-923E-C4007B641A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45513874-1C36-40BB-8BE1-E7C96C8E56BE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <Version>0.0.1</Version>
+    <Authors>midoliy</Authors>
+    <Company>tech leaves</Company>
+    <Copyright>© 2021 Tatsuya Midorikawa. All rights rserved</Copyright>
+    <PackageProjectUrl>https://github.com/tatsuya-midorikawa/LibreOfficeSmith</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tatsuya-midorikawa/LibreOfficeSmith</RepositoryUrl>
+    <PackageTags>csharp,libreoffice,helper</PackageTags>
+    <PackageIcon>libreoffice_smith.png</PackageIcon>
+    <NeutralLanguage>ja-JP</NeutralLanguage>
+    <PackageReleaseNotes># ver 0.0.1
+- add LibreOffice.ConvertToPdfAsync()</PackageReleaseNotes>
+    <Description>This library is designed to support LibreOffice operations.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\libreoffice_smith.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
