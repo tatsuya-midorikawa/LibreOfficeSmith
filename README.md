@@ -1,5 +1,5 @@
 # LibreOfficeSmith
-This library is designed to support LibreOffice operations.
+Helper library for LibreOffice operations.
 
 # How to use
 
